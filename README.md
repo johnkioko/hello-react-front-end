@@ -23,7 +23,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 
-  <h3><b>React_Rails Hello World</b></h3>
+  <h3><b>hello-react-front-end</b></h3>
 
 </div>
 
@@ -53,34 +53,48 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Budget-App] <a name="about-project"></a>
+# 📖 [hello-react-front-end] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[Hello world project with Webpack]** This project implements connection between a Ruby on Rails back-end and React front-end
+**[hello-react-front-end]** This repo is a simple React project that displays random greeting messages provided by the rails API app:
+[Hello_Rails_Back-end](https://github.com/johnkioko/hello-rails-back-end)
+
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-Ruby
-Rails
-Postgresql
+### Tech Stack <a id="tech-stack"></a>
+  <details>
+    <summary>Backend</summary>
+    <ul>
+      <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+    </ul>
+  </details>
+  <details>
+    <summary>Frontend</summary>
+    <ul>
+      <li><a href="https://reactjs.org/">React.js</a></li>
+    </ul>
+  </details>
+  <details>
+    <summary>Database</summary>
+    <ul>
+      <li><a href="https://www.postgresql.org/">Postgresql</a></li>
+    </ul>
+   </details>
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<details>
-  <summary>Client</summary>
- </details>
+<!-- Features -->
 
-
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **[RoR on back-end]**
-- **[React on front-end]**
+### Key Features <a id="key-features"></a>
+- **The App can display random Greeting**
+- **Get the random greeting from API**
+- **Display the random greeting Greeting component**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-[Live Demo]()
+<!-- Link To React_app -->
+
+ - Link To React_app: http://localhost:3000
 
 <!-- GETTING STARTED -->
 
@@ -94,32 +108,24 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- gem install rails
-
 ### Setup
 
 Clone this repository to your desired folder:
 
-- git clone https://github.com/johnkioko/hello-rails-react
+- git clone https://github.com/johnkioko/hello-react-front-end
 
 
 ### Install
 
 Install this project with:
 
-- bundle install
+- npm install
 
 ### Usage
 
 To run the project, execute the following command:
 
--   rails s -p 5000
-
-### Run tests
-
-To run tests, run the following command:
-
-- rspec
+-   npm start
 
 ### Deployment
 
@@ -180,10 +186,6 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank:
-
-- My Coding Partiners Daphine Atim, Yasir and Sajeel
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
@@ -194,7 +196,6 @@ I would like to thank:
 
 - **[What is the main objective of this branch?]**
 
-  - [Construction of different classes using RUBY]
 
 - **[What is the symbol for class inheritance]**
 
